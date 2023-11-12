@@ -4,7 +4,7 @@ body {
 .header {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     position: fixed;
     top: 0;
     left: 0;
@@ -12,17 +12,17 @@ body {
     padding: 10px;
 }
 .logo {
-    align-self: flex-start;
-    color: #f9faf8;
+    color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
+    margin-left: 100px;
 }
 .link {
     display: flex;
-    justify-content: space-evenly;
-    color: #e5e7eb;
-    font-size: 18px;       
+    align-items: center;
+    color: #E5E7EB;
+    font-size: 18px;   
+    margin-right: 100px;    
 }
 .linkText {
-    margin: 0 10px; /* Atur margin kiri-kanan, bisa disesuaikan */
-}
+    margin: 0 10px;
