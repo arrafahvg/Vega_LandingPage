@@ -136,7 +136,7 @@ body {
 
 .middleBody {
     background: #E5E7EB;
-    padding: 100px 375px;
+    padding: 100px 300px;
     justify-content: center;
     align-items: center;
 }
@@ -152,4 +152,40 @@ body {
     font-weight: bolder;
     font-size: large;
     color: #1f2937;
+}
+
+.lowerMiddleBody {
+    padding: 100px 200px;
+}
+
+.callActionBox {
+    display: flex;
+    background-color: #3498db;
+    justify-content: space-between;
+    border-radius: 20px;
+    align-items: center;
+}
+
+#lowerSignUp {
+    border: 2px solid #E5E7EB;
+    margin-right: 100px;
+    text-align: center;
+    cursor: pointer;
+    min-width: 100px;
+}  
+
+.callActionText {
+    margin: 25px 100px;
+    display: flex;
+    flex-direction: column  ;
+}
+
+#h1CallAction {
+    color: #E5E7EB;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#pCallAction {
+    color: #E5E7EB;
 }
