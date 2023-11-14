@@ -98,6 +98,7 @@ body {
     margin-top: 50px; /* Ubah nilai margin-top sesuai kebutuhan */
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .titleMiddleUpperBody {
