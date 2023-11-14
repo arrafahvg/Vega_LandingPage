@@ -124,3 +124,21 @@ body {
     border-color: #3498db;
     border-radius: 20%;
 }
+
+.subtextBox {
+    max-width: 135px;
+    margin: 10px 100px;
+    text-align:center;
+    font-size: smaller;
+    color: gray;
+}
+
+.middleBody {
+    display: flex;
+    flex-direction: column;
+    background: gray; /* Sesuaikan dengan warna yang diinginkan */
+    margin-bottom: 50px;
+    margin-top: 50px; /* Ubah nilai margin-top sesuai kebutuhan */
+    justify-content: center;
+    align-items: center;
+}
