@@ -189,3 +189,14 @@ body {
 #pCallAction {
     color: #E5E7EB;
 }
+
+.copyrightFooter {
+    background-color: #1f2937;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#copyrightText {
+    color: #E5E7EB;
+    text-align: center;
+}
